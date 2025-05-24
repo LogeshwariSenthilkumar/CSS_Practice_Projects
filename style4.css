@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'article text1'
+    'article text2'
+    'main main'
+    'footer footer';
+
+
+}
+.header,.article,.text1,.text2,.main,.footer{
+    background-color: purple;
+    border: 5px solid white;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+.header{
+    grid-area: header;
+}
+.article{
+    grid-area: article;
+}
+.text1{
+    grid-area: text1;
+}
+.text2{
+    grid-area: text2;
+}
+.main{
+    grid-area: main;
+}
+.footer{
+    grid-area: footer;
+}

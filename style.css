@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'nav content sidebar'
+    'footer footer footer';
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 100px 1fr 50px;
+
+}
+.header,.nav,.content,.sidebar,.footer{
+    background-color: orangered;
+    border:1px solid white;
+}
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area:nav;
+}
+.content{
+    grid-area:content;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.footer{
+    grid-area: footer;
+}
