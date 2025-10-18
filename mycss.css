@@ -1,0 +1,19 @@
+body{
+    background-image: url(images/613zSi2vgNL._AC_UF1000\,1000_QL80_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+   color:white;
+   text-align: center;
+   text-decoration: underline;
+}
+p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: yellow;
+    background-color: black;
+}
